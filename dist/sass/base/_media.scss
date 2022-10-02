@@ -1,0 +1,245 @@
+@media (max-width:1200px){
+    .container{
+        max-width: 900px;
+    }
+    .promo{
+        img{
+            max-width: 100%;
+        }
+    }
+}
+@media (max-width:991px){
+    .container{
+        max-width: 700px;
+        img{
+            background-size: 90%;
+            background-position: 0 10%;
+        }
+    }
+    .advantages{
+        &__icon{
+            width: 33%;
+        }
+    }
+    .carousel{
+        .prev, .next{
+            display: none;
+        }
+        .tns-nav{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -10%;
+            button {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+                margin-right: 5px;
+            }
+            .tns-nav-active{
+                background-color: $main-color;
+            }
+        }
+    }
+    .catalog{
+        margin-top: 70px;
+        h2{
+            font-size: 45px;
+        }
+    }
+    .feedback{
+        h2{
+            font-size: 42px;
+        }
+    }
+}
+@media (max-width:767px){
+    .container{
+        max-width: none;
+    }
+    .header{
+        &__phone{
+            font-size: 16px;
+        }
+        &__logo{
+            display: flex;
+            flex-direction: row;
+            align-items:flex-start;
+            margin-right: 5px;
+        }
+        &__official{
+            margin-right: 25px;
+        }
+    }
+    .button{
+        position: relative;
+        &_main{
+            position: absolute;
+            left: 50%;
+            transform:translateX(-50%);
+            bottom: 50px;
+        }
+    }
+    .promo{
+        &__link{
+            margin-top: 128px;
+            margin-right: 165px;
+        }
+        &__header{
+            margin-right: 20px;
+        }
+        &__subheader{
+            margin-right: 20px;
+        }
+        &__icons{
+            margin-right: 70px;
+        }
+    }
+    .advantages{
+        h2{
+            font-size: 42px;
+        }
+        &__wrapper{
+            position: relative;
+        }
+        &__icons{
+            display: flex;
+        }
+        &__icon{
+            padding-right: 0px;
+        }
+    }
+    .carousel{
+        .prev, .next{
+            display: none;
+        }
+        .tns-nav{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -10%;
+            button {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+            }
+            .tns-nav-active{
+                background-color: $main-color;
+            }
+        }
+    }
+    .catalog{
+        &__content{
+            &_active{
+                display: flex;
+                justify-content: center;
+            }
+        }
+    }
+}
+@media (max-width: 575px){
+    .container{
+        max-width: none;
+    }
+    .header{
+        &__official{
+            font-size:14px;
+        }
+    }
+    .promo{
+        &__header{
+            text-align: center;
+            margin-left: 18px;
+        }
+        &__subheader{
+            text-align: center;
+            margin-left: 18px;
+        }
+        &__icons{
+            margin-right: -25px;
+        }
+        &__icon{
+            width: 100%;
+        }
+        &__link{
+            
+            margin-right: 47px;
+        }
+    }
+    .button{
+        position: relative;
+        &_main{
+            position: absolute;
+            left: 50%;
+            transform:translateX(-50%);
+            bottom: -30px;
+        }
+    }
+    .consultation{
+        .title{
+            font-size: 48px;
+        }
+    }
+    .carousel{
+        .prev, .next{
+            display: none;
+        }
+        .tns-nav{
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -15%;
+            button {
+                width: 40px;
+                height: 40px;
+                border-radius: 20px;
+            }
+            .tns-nav-active{
+                background-color: $main-color;
+            }
+        }
+        .tns-item{
+            img{
+                display: block;
+                margin: 0 auto;
+                height: auto;
+                width: 95%;
+            }
+        }
+    }
+    .catalog{
+        h2{
+            font-size: 50px;
+        }
+        &__tab{
+          font-size: 13px;  
+        }
+    }
+    .modal{
+        &__close{
+            right:-25px;
+        }
+    }
+}
+@media (max-width: 410px){
+    .carousel{
+        .tns-item{
+            img{
+                display: block;
+                margin: 0 auto;
+                height: 90%;
+                width: 100%;
+            }
+        }
+    }
+    .footer{
+        &__info{
+            margin-left: 17px;
+        }
+    }
+    .modal{
+        &__close{
+            font-size: 31px;
+        }
+    }
+}
